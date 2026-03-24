@@ -1,11 +1,47 @@
 /*** colors 
-FFADAD
-FFD6A5
-FDFFB6
-CAFFBF
-9BF6FF
-A0C4FF
-BDB2FF
-FFC6FF
-FFFFFC 
+FFADAD - what color is this?
+FFD6A5 - what color is this?
+FDFFB6 - what color is this?
+CAFFBF - pastel green
+9BF6FF - what color is this?
+A0C4FF - pastel blue
+BDB2FF - what color is this?
+FFC6FF - what color is this?
+FFFFFC  - black
 ***/
+
+/*** TITLE PAGE ***/
+
+#herotitle {
+    font-family: "Chewy";
+    font-size: 150px;
+}
+#heroButton1 {
+    background-color: #fdffb6;
+    font-size:18px;
+    
+}
+#heroButton1:hover {
+    opacity: 0.6;
+}
+#heroButton2 {
+    background-color: #bdb2ff;
+    font-size:18px;
+    
+}
+#heroButton2:hover {
+    opacity: 0.6;
+}
+
+
+/*** MENU ***/
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: #a0c4ff  !important;
+}
+
+/*** DELIVERY EX. ***/
+
+/*** DRONES ***/
+
+
