@@ -1,13 +1,13 @@
 /*** colors 
-FFADAD - what color is this?
-FFD6A5 - what color is this?
-FDFFB6 - what color is this?
+FFADAD - pastel red
+FFD6A5 - pastel orange
+FDFFB6 - pastel yellow
 CAFFBF - pastel green
-9BF6FF - what color is this?
+9BF6FF - tealish
 A0C4FF - pastel blue
-BDB2FF - what color is this?
-FFC6FF - what color is this?
-FFFFFC  - black
+BDB2FF - periwinkle
+FFC6FF - pink
+FFFFFC  - white
 ***/
 
 /*** TITLE PAGE ***/
@@ -33,11 +33,30 @@ FFFFFC  - black
     opacity: 0.6;
 }
 
+footer .section {
+    background-color: #FFADAD !important;
+}
 
-/*** MENU ***/
-.bg-black {
-    --bs-bg-opacity: 1;
-    background-color: #a0c4ff  !important;
+/*** NAV MENU ***/
+
+
+/*** NAV MENU ***/
+/*** NAV MENU ***/
+.fullscreen-menu h2 a {
+    color: white !important;
+}
+
+.bg-blue {
+    background-color: #a0c4ff;
+}
+
+.header.header-color-dark {
+  background: #a0c4ff;
+}
+/*** keep it transparent until I scroll down. This rule goes second
+so it has the last say */
+.header.header-color-dark.transparent-light {
+  background: none;
 }
 
 /*** DELIVERY EX. ***/
