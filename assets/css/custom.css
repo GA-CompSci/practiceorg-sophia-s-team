@@ -14,8 +14,9 @@ FFFFFC  - white
 
 #herotitle {
     font-family: "Chewy";
-    font-size: 150px;
+    font-size: clamp(48px, 8vw, 150px);
 }
+
 #heroButton1 {
     background-color: #fdffb6;
     font-size:18px;

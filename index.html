@@ -36,9 +36,9 @@
 			<div class="header-logo">
 				<h3 class="uppercase letter-spacing-1"><a href="#" id="herocontainer">cookie cloud</a></h3>
 				<!-- 
-					<img class="logo-dark" src="assets/images/your-logo-dark.png" alt="">
-					<img class="logo-light" src="assets/images/your-logo-light.png" alt=""> 
-					-->
+											<img class="logo-dark" src="assets/images/your-logo-dark.png" alt="">
+											<img class="logo-light" src="assets/images/your-logo-light.png" alt=""> 
+											-->
 			</div>
 			<!-- Fullscreen Menu Toggle -->
 			<button class="fm-toggle">
@@ -65,7 +65,8 @@
 						<h2 class="letter-spacing-1"><a class="text-link-2" href="#testimonials">Testimonials</a></h2>
 					</li>
 					<li>
-						<h2 class="letter-spacing-1"><a class="text-link-2" href="#subscription">Subscription Options</a></h2>
+						<h2 class="letter-spacing-1"><a class="text-link-2" href="#subscription">Subscription
+								Options</a></h2>
 					</li>
 				</ul>
 			</div>
@@ -93,8 +94,10 @@
 			<div class="row">
 				<div class="col-12">
 					<h1 class="display-4 fw-normal mb-3" id="herotitle">Taking Cookies to New Heights</h1>
-					<a class="button button-lg button-rounded mt-4 me-3" href="#first" id="heroButton1"></i>Flavors</a>
-					<a class="button button-lg button-rounded mt-4" href="#subscription" id="heroButton2"></i>Buy Now!</a>
+					<a class="button button-lg button-rounded mt-4 me-3" href="#flavors"
+						id="heroButton1"></i>Flavors</a>
+					<a class="button button-lg button-rounded mt-4" href="#subscription" id="heroButton2"></i>Buy
+						Now!</a>
 				</div>
 			</div><!-- end row -->
 		</div><!-- end container -->
@@ -108,7 +111,9 @@
 				<div class="row g-4">
 					<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 						<h2 class="fw-medium display-6">Our Delivery Vehicle</h2>
-						<p>Meet the Cloud Carrier! Our custom drone that turns the sky into your delivery route. Each delivery is perfectly timed to keep your cookies fresh, warm, and ready for you to dig in the moment that they arrive!</p>
+						<p>Meet the Cloud Carrier! Our custom drone that turns the sky into your delivery route. Each
+							delivery is perfectly timed to keep your cookies fresh, warm, and ready for you to dig in
+							the moment that they arrive!</p>
 					</div>
 				</div>
 			</div>
@@ -128,7 +133,8 @@
 							<p>Drone delivery is no longer just an idea, it is something happening all around us. With
 								faster delivery times and fewer delays, drones are changing how people receive everyday
 								items. Cookie Cloud is taking the chance to tap into this growing technology to deliver
-								warm, fresh cookies in a way that feels as exciting as it is convenient. Click to the right to learn more!
+								warm, fresh cookies in a way that feels as exciting as it is convenient. Click to the
+								right to learn more!
 							</p>
 						</div>
 						<div class="col-12 col-lg-4 text-center text-lg-end ">
@@ -198,7 +204,7 @@
 					<div class="d-flex align-items-center justify-content-between mb-3">
 						<div class="d-inline-block">
 							<h5 class="fw-normal line-height-140 m-0">Liam Carter</h5>
-							<span class="font-small fw-normal text-white-09">Loyal Customer!</span>
+							<span class="font-small fw-normal text-white-09">Loyal Customer</span>
 						</div>
 						<div class="d-inline-block text-golden-yellow">
 							<i class="bi bi-star-fill"></i>
@@ -292,7 +298,7 @@
 							<li>6 cookies per month</li>
 							<li>Monthly "flavor forecast" email</li>
 						</ul>
-						<a class="button button-md button-gradient-5 button-rounded mt-4" href="#">Choose Plan</a>
+						<a class="button button-md button-gradient-5 button-rounded mt-4">Choose Plan</a>
 					</div>
 				</div>
 				<!-- Price box 2 -->
@@ -309,7 +315,7 @@
 							<li>12 cookies per month</li>
 							<li>Access to exclusive flavors </li>
 						</ul>
-						<a class="button button-md button-gradient-5 button-rounded mt-4" href="#">Choose Plan</a>
+						<a class="button button-md button-gradient-5 button-rounded mt-4">Choose Plan</a>
 					</div>
 				</div>
 				<!-- Price box 3 -->
@@ -325,7 +331,7 @@
 							<li>18 cookies per month</li>
 							<li>Priority Delivery</li>
 						</ul>
-						<a class="button button-md button-gradient-5 button-rounded mt-4" href="#">Choose Plan</a>
+						<a class="button button-md button-gradient-5 button-rounded mt-4">Choose Plan</a>
 					</div>
 				</div>
 			</div><!-- end row -->
@@ -339,7 +345,7 @@
 				<div class="row g-4 align-items-center">
 					<div class="col-12 col-md-6 text-center text-md-start">
 						<h2 class="uppercase letter-spacing-1">cookie cloud</h2>
-	
+
 						<p class="mt-2 text-dark">Made by 2026 Gilmour Academy Students</p>
 					</div>
 					<div class="col-12 col-md-6 text-center text-md-end text-dark">
@@ -348,8 +354,8 @@
 							<li>valentina.dicenso@gilmour.org</li>
 							<li>sophia.radolovic@gilmour.org</li>
 						</ul>
-						
-	
+
+
 					</div>
 				</div><!-- end row -->
 			</div><!-- end container -->
@@ -367,6 +373,20 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 	<script src="assets/plugins/plugins.js"></script>
 	<script src="assets/js/functions.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const menuLinks = document.querySelectorAll("#menuList a");
+			const closeBtn = document.querySelector(".fm-close");
+
+			menuLinks.forEach(link => {
+				link.addEventListener("click", function () {
+					if (closeBtn) {
+						closeBtn.click(); // simulate clicking the close button
+					}
+				});
+			});
+		});
+	</script>
 </body>
 
 </html>
